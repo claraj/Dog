@@ -16,10 +16,14 @@ public class DogManager {
         Dog testDog2 = new Dog("Bob", "456 Hennepin Ave.");
         int exampleWalks2[] = {0, 1, 1, 1, 0, 1, 1};
         testDog2.setWalksPerDay(exampleWalks2);
+        
+        
+        //TODO put all Dogs in ArrayList
 
         for (int day = 0 ; day < 7 ; day++) {
 
-            //TODO get dog information from your list of Dog objects.
+            //TODO instead of working with each Dog individually, get dog information from your list of Dog objects.
+            //So you'll need another loop here, to loop over te Dogs list
             System.out.println(testDog.getName());
             System.out.println("On day " + day + " walk dog this many times "+ testDog.getNumberOfWalksForDay(day));
 
