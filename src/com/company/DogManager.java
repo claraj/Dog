@@ -31,7 +31,7 @@ public class DogManager {
         for (int day = 0 ; day < 7 ; day++) {
 
             //TODO instead of working with each Dog individually, get dog information from your list of Dog objects.
-            //So you'll need another loop here, to loop over te Dogs list
+            //So you'll need another loop here, to loop over the Dogs list
             System.out.println(testDog.getName());
             //String nameOfDay = dayLookup.get(day);   ///get name of day from HashMap.
             System.out.println("On day " + nameOfDay + " walk dog this many times "+ testDog.getNumberOfWalksForDay(day));
